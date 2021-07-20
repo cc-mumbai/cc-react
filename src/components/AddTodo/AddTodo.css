@@ -1,0 +1,34 @@
+.add-todo {
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0;
+  background-color: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+
+.add-todo > input {
+  flex-grow: 1;
+  text-align: left;
+  background-color: #242424;
+  border: none;
+  font-size: 1rem;
+  outline: none;
+  font-weight: bold;
+}
+
+.add-todo > button {
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  background-color: #242424;
+  color: #00897b;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+}
+
+.add-todo > button:hover {
+  background-color: #00897b;
+  color: #fff2c9;
+}

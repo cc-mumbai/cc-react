@@ -1,0 +1,37 @@
+.todo {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  background-color: #242424;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo > div {
+  flex-grow: 1;
+  text-align: left;
+  background-color: #242424;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.todo > button {
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  background-color: #242424;
+  color: #cb3837;
+  border-radius: 50%;
+  transition: all 0.1s ease-in-out;
+  outline: none;
+}
+
+.todo > button:hover {
+  background-color: #cb3837;
+  color: #fff2c9;
+}
+
+.done {
+  text-decoration: line-through;
+}
